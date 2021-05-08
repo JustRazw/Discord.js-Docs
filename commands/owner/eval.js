@@ -9,7 +9,7 @@ module.exports = {
      * @param {String[]} args
      */
     run: async(client, message, args) => {
-        if(message.author.id !== '706321337253363712') return;
+        if(message.author.id !== 'YOUR DISCORD ID') return;
 
         const code = args.join(" ");
         if(!code) return message.reply('Please provide some code to evaluate.');
